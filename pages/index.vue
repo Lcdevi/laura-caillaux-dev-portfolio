@@ -36,7 +36,7 @@ export default {}
   border: 1px solid yellow;
 
   & div {
-    border: 4px solid blue;
+    border: 4px solid green;
   }
 }
 </style>
