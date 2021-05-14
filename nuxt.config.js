@@ -25,7 +25,7 @@ export default {
     // fichier CSS dans notre projet
     // '~/assets/css/main.css',
     // fichier SCSS dans notre projet
-    // '~/assets/css/main.scss'
+    '~/assets/scss/main.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -44,8 +44,32 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // style-resources to use variables in all the app
+    '@nuxtjs/style-resources',
+    // Simple usage of google-fonts
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    /* module options */
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+      Quattrocento: {
+        wght: [400]
+      },
+    }
+  },
+
+  styleResources: {
+    scss: ['./assets/scss/*.scss']
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

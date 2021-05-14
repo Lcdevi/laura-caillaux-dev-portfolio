@@ -1,28 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <Navbar />
       <h1 class="title">
         laura-caillaux-portfolio
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <Footer />
     </div>
   </div>
 </template>
@@ -32,11 +15,5 @@ export default {}
 </script>
 
 <style lang='scss'>
-.container {
-  border: 1px solid yellow;
 
-  & div {
-    border: 4px solid green;
-  }
-}
 </style>
