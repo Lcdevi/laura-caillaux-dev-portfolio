@@ -12,6 +12,6 @@ div {
  justify-content: flex-end;
  position: absolute;
  bottom: 10px;
- right: 10px;
+ right: 5px;
 }
 </style>
