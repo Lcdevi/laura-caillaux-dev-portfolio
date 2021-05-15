@@ -2,8 +2,8 @@
   <div class="container">
     <div id="presentation">
       <p class="hero">
-        <span>HI !</span> Welcome to my website, I’m <span>Laura</span>, a french <br>
-        web designer & front-end developer, passionate about clean code, responsive design and accessibility
+        <span class="serif">HI !</span> Welcome to my website, I’m <span class="serif">Laura</span>, a french <br>
+        <span class="underline">web designer</span> & <span class="underline">front-end developer</span>, passionate about clean code, responsive design and accessibility
       </p>
       <p>
         I used to develop with these technologies but I’m open to work with other frameworks or languages
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 34px 0;
+    margin: 84px 0;
 
     & #presentation {
       // border: 1px solid green;
@@ -42,11 +42,24 @@
         line-height: $line-height-pres;
         width: 847px;
         text-align: center;
-        margin: 18px 0;
+        margin: 32px 0;
       
-        & span {
+        & .serif {
           font-family: $ff-serif;
           font-size: 42px;
+        }
+
+        & .underline {
+          position: relative; 
+        }
+        & .underline:after {
+          position: absolute;
+          content: '';
+          height: 1px;
+          bottom: 3px; 
+		      left: 0;
+          right: 0;
+		      background: $brown;
         }
       }
 
@@ -54,7 +67,7 @@
         // border: 1px solid red;
         display: flex;
         justify-content: center;
-        margin: 18px 0;
+        margin: 32px 0;
 
         & .circle {
           background-color: rgb(191, 191, 191);
@@ -72,7 +85,7 @@
       width: 847px;
       display: flex;
       justify-content: flex-end;
-      margin: 18px 0;
+      margin: 32px 0;
     }
   }
 </style>

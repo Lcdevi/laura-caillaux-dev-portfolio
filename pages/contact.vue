@@ -10,7 +10,7 @@
 <style lang="scss" scoped>
 
 #contact {
-	border: 1px solid red;
+	// border: 1px solid red;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

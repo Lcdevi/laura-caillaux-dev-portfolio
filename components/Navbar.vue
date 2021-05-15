@@ -5,14 +5,17 @@
 				<NuxtLink to="/">Laura Caillaux</NuxtLink>
 			</div>
 			<div class="menu-link" v-on:click="togglemenu">
-				<p id="menu"><span>M</span>enu</p>
+				<p id="menu" :class="[isActive ? 'display-menu' : 'remove-menu']"><span>M</span>enu</p>
+				<div class="cross" :class="[isActive ? 'remove-menu' : 'display-menu']">
+					<div class="line"></div>
+				</div>
 			</div>
 			<div class="menu-link" :class="[isActive ? 'color' : 'invisible']">
-				<NuxtLink to="/about">About</NuxtLink>
+				<NuxtLink to="/about"><span>A</span>bout</NuxtLink>
 			</div>
 		</div>
 
-		<div class="burger-menu"  :class="[isActive ? 'remove-menu' : 'display-menu']">
+		<div class="burger-menu" :class="[isActive ? 'remove-menu' : 'display-menu']">
 			<ul>
 				<li v-on:click="togglemenu">
 					<NuxtLink to="/">home</NuxtLink>
@@ -26,7 +29,9 @@
 				<li v-on:click="togglemenu">
 					<NuxtLink to="/contact">contact</NuxtLink>
 				</li>
-				<li v-on:click="togglemenu">credit</li>
+				<li v-on:click="togglemenu">
+					<NuxtLink to="/credit">credit</NuxtLink>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -91,13 +96,48 @@ export default {
 			padding: 8px 0;
 		}
 
-		.color {
+		& .color {
 			color: $brown;
 		}
 
-		.invisible {
+		& .invisible {
 			color: $pink;
 		}
+
+		& .cross {
+			position: relative;
+			width: 50px;
+			height: 50px;
+			cursor: pointer;
+			border: 1px solid $brown;
+			margin: 35px;
+			border-radius: 50%;
+
+			&	.line {
+				width: 50px;
+				height: 1px;
+				background-color: $brown;
+				border-radius: 5px;
+				transform: rotate(25deg) translate(9px, 22px);
+			}
+
+			&	.line::before,
+				.line::after {
+				content: '';
+				position: absolute;
+				width: 50px;
+				height: 1px;
+				background-color: $brown;
+				border-radius: 5px;
+				}
+			&	.line::before {
+				transform: translateX(-25px) rotate(116deg);
+			}
+			& .line::after {
+				transform: translateX(-25px) rotate(55deg);
+			}
+		}
+
 	}
 
 	.burger-menu {
@@ -106,11 +146,11 @@ export default {
 		width: 100%;
 		// background-color: $pink;
 		// background: linear-gradient($pink, rgba(255,245,219, 0.5));
-background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 40%, rgba(255,245,219,0.6923144257703081) 100%);
+		background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 40%, rgba(255,245,219,0.6923144257703081) 100%);
 		z-index: 100;
 		padding: 40px 0 140px 0;
 		text-align: center;
-		height: 100vh;
+		height: 140vh;
 
 		& li {
 			font-family: $ff-serif;
