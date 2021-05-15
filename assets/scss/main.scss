@@ -19,4 +19,25 @@ a {
 
 body {
     background-color: $pink;
+    font-family: $ff-sans;
+    color: $brown;
+}
+
+.link {
+    font-family: $ff-serif;
+    font-size: $font-size-link;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: $ff-serif;
+    font-size: $font-size-h1;
+    font-weight: inherit;
+    text-transform: uppercase;
+}
+
+.p-reg {
+    font-family: $ff-sans;
+    font-size: $font-size-reg;
+    line-height: $line-height-reg;
 }
