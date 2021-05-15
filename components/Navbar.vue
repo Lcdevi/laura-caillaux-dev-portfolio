@@ -23,7 +23,9 @@
 				<li v-on:click="togglemenu">
 					<NuxtLink to="/about">about</NuxtLink>
 				</li>
-				<li v-on:click="togglemenu">contact</li>
+				<li v-on:click="togglemenu">
+					<NuxtLink to="/contact">contact</NuxtLink>
+				</li>
 				<li v-on:click="togglemenu">credit</li>
 			</ul>
 		</div>
