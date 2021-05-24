@@ -1,5 +1,5 @@
 <template>
-	<div id="about">
+	<div id="about-container">
 		<h1>About</h1>
 		<div class="content">
 			<img src="~/assets/img/Rectangle-7.png" alt="rectange gris">
@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
 
-#about {
+#about-container {
 	// border: 1px solid red;
 	display: flex;
 	flex-direction: column;

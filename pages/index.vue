@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="index-container">
     <div id="presentation">
       <p class="hero">
         <span class="serif">HI !</span> Welcome to my website, I’m <span class="serif">Laura</span>, a french <br>
@@ -23,7 +23,7 @@
 
 <style lang='scss' scoped>
 .big {color: red;}
-  .container {
+  .index-container {
     // border: 1px solid pink;
     font-family: $ff-sans;
     position: relative;

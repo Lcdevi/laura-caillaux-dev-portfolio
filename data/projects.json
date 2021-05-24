@@ -1,14 +1,45 @@
 [
   {
-      "id": "01",
+      "id": "1",
       "title": "cèucle",
-      "infos": "infos cèucle",
-      "stack": "nuxt / Ecwid"
-  },
+      "description": "cèucle est une marque de vêtement upcyclés pour enfants. ",
+      "infos": "Ma mission dans un premier temps a été de développer le site web temporaire avant le lancement du e-shop. La cliente voulait une page simple mettant en évidence la direction artistique de la marque et permettant de reccueillir les emails des personnes interessées ainsi qu'un formulaire de contact.",
+      "stack": "HTML5 / VanillaJS / CSS3",
+      "thirdparties": "emailJS",
+      "role": "intégration web / développement web / conseil",
+      "date": "2021",
+      "url": "https://www.ceucle.com"
+    },
   {
-      "id": "02",
+      "id": "2",
       "title": "Jo carré céramique",
-      "infos": "infos Jo carré",
-      "stack": "ReactJs"
-  }
+      "description": "Jo Carré est un collectif réunissant un artisan céramiste et un artiste illustrateur",
+      "infos": "J'ai développé un site web vitrine ayant pour vocation de présenter l'atelier et les artistes, les différents objets en vente et leurs informations respectives ainsi qu'un formulaire de contact",
+      "stack": "ReactJs",
+      "thirdparties": "emailJS / cloudinary",
+      "role": "maquettage UI / intégration web / développement web / conseil",
+      "date": "2020",
+      "url": "https://jocarre.herokuapp.com/"
+    },
+  {
+    "id": "3",
+    "title": "Les voix de traverse",
+    "description": "Les voix de traverse est une association qui réalise des créations sonores et des reportages radios",
+    "infos": "Refonte totale du design et de l'architecture du site web wordpress",
+    "stack": "Wordpress",
+    "role": "maquettege UI UX / intégration wordpress / conseil",
+    "date": "2021",
+    "url": "http://www.lesvoixdetraverse.com/"
+    },
+    {
+    "id": "4",
+    "title": "Portfolio",
+    "description": "En mai 2021 je décide de concevoir et créer mon portfolio",
+    "infos": "Pour mon portfolio, j'ai utilisé NuxtJs. J'ai designé le site de façon claire, je voulais que celui ci soit lisible et que la navigation soit facile d'accès. J'ai selectionné et hiérarchisé les informations et les ai étendu sur 4 pages facile d'accès.",
+    "stack": "NuxtJS / SASS",
+    "thirdparties": "emailJS",
+    "role": "maquettage UI / intégration web / développement web",
+    "date": "2021",
+    "url": "https://www.google.com"
+    }
 ]

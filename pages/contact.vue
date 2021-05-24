@@ -1,5 +1,5 @@
 <template>
-	<div id="contact">
+	<div id="contact-container">
 		<h1>contact</h1>
 		<div class="content">
 
@@ -9,7 +9,7 @@
 
 <style lang="scss" scoped>
 
-#contact {
+#contact-container {
 	// border: 1px solid red;
 	display: flex;
 	flex-direction: column;

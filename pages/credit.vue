@@ -1,12 +1,12 @@
 <template>
-  <div id="credit">
+  <div id="credit-container">
     <h1>credit</h1>
   </div>
 </template>
 
 <style lang="scss" scoped>
 
-#credit {
+#credit-container {
   display: flex;
   flex-direction: column;
   align-items: center;

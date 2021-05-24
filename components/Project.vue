@@ -16,7 +16,7 @@ export default {
   props: ['project'],
 
   mounted() {
-    console.log(this.project)    
+    console.log('this project 1',this.project)    
   }
 
 }
