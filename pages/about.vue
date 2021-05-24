@@ -22,7 +22,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 70px 0;
+	margin: 202px 0;
 
 	& .content {
 		// border: 1px solid green;

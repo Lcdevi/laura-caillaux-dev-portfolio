@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 84px 0;
+    margin: 216px 0;
 
     & #presentation {
       // border: 1px solid green;

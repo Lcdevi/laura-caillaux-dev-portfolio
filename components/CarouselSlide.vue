@@ -9,6 +9,7 @@
     </div>
     <div class="infos">
       <div class="left-part">
+        <h3>description</h3>
         <p>{{ project.infos }}</p>
         <br>
       </div>
@@ -17,7 +18,7 @@
         <p>{{ project.stack }}</p>
         <br>
         <div v-if="project.thirdparties">
-          <h3>Api tierce</h3>
+          <h3>API tierce</h3>
           <p>{{ project.thirdparties }}</p>
           <br>
         </div>
@@ -33,17 +34,6 @@
         voir le site
       </a>
     </div>
-    <!-- <p class="p-reg">
-      <h2>{{ project.title }}</h2>
-      déscription : <br>
-      {{ project.infos }} 
-      <br> - <br>
-      {{ project.stack }} 
-      <br> - <br>
-      {{ project.thirdparties }}
-      <br> - <br>
-      {{ project.date }}
-    </p> -->
   </div>
 </template>
 

@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div class="menu-link" :class="[isActive ? 'color' : 'invisible']">
-				<NuxtLink to="/about"><span>A</span>bout</NuxtLink>
+				<NuxtLink to="/contact">Contact</NuxtLink>
 			</div>
 		</div>
 
@@ -71,12 +71,16 @@ export default {
 
 	#navbar {
 		// border: 1px solid red;
+		position: fixed;
+		top: 0;
+		width: 100%;
 		height: 130px;
 		font-family: $ff-sans;
 		font-size: 28px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		background-color: $pink;
 
 		& .menu-link {
 			width: 120px;
