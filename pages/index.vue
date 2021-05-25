@@ -2,11 +2,11 @@
   <div class="index-container">
     <div id="presentation">
       <p class="hero">
-        <span class="serif">HI !</span> Welcome to my website, I’m <span class="serif">Laura</span>, a french <br>
-        <span class="underline">web designer</span> & <span class="underline">front-end developer</span>, passionate about clean code, responsive design and accessibility
+        <span class="serif">Bonjour !</span> Bienvenu sur mon site web, je suis <span class="serif">Laura</span>, <br>
+        <span class="underline">web designer</span> & <span class="underline">développeuse front-end</span>, passionnée par le clean code, le responsive design et l'accessibilité.
       </p>
       <p>
-        I used to develop with these technologies but I’m open to work with other frameworks or languages
+        Voici mes outils de prédilection, mais je reste ouverte et proactive, je peux me former à d'autres framework ou technologie.
       </p>
       <div class="tools">
         <div class="circle"></div>
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="link">
-      <NuxtLink to="/work">take a look to my work -></NuxtLink>
+      <NuxtLink to="/work">découvrir mes projets -></NuxtLink>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 216px 0;
+    margin: 80px 0;
 
     & #presentation {
       // border: 1px solid green;

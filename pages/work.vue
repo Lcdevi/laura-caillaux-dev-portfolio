@@ -1,6 +1,6 @@
 <template>
 	<div class="work-container">
-		<h1>work</h1>
+		<h1>Projets</h1>
 		<div class="carousel">
 			<button @click="prev">PREV</button>
 
@@ -62,7 +62,7 @@ export default {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 202px 0;
+	margin: 70px 0;
 	& .carousel {
 		display: flex;
 		flex-direction: row;

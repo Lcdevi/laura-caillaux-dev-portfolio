@@ -19,9 +19,13 @@
 import emailjs from 'emailjs-com';
 
 export default {
+    mounted() {
+    console.log('this project 1', process.env.TEST_TEST)    
+  },
+
   methods: {
     sendEmail: (e) => {
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      emailjs.sendForm('service_owxtdwe', 'template_g4x6lr1', e.target, 'user_NaM1stgXQWebtXCjHYdox')
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
         }, (error) => {

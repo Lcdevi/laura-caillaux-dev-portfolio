@@ -1,14 +1,14 @@
 <template>
 	<div id="about-container">
-		<h1>About</h1>
+		<h1>A propos</h1>
 		<div class="content">
 			<img src="~/assets/img/Rectangle-7.png" alt="rectange gris">
 			<div>
 				<p class="p-reg">
-					Hello, I’m Laura Caillaux,<br> born in kathmandu 32 years ago.<br>In a previous life I was a teacher in a art school in Strasbourg. I’m now a free-lance web developer based in Paris. According to your project, I can create website from scratch, but I can work also with CMS as wordpress or webflow or woocommerce for your e-shop.
+					Bonjour, je suis Laura Caillaux,<br>je suis née à Kathmandu il y a 32 ans.<br>Dans une vie précédente, j'enseignais l'art de la reliure dans une école d'art à Strasbourg.<br>Je fais maintenant du développement web et de l'intégration web en freelance à Paris.
 				</p>
 				<NuxtLink to="/contact">
-					<p class="link">Let's talk about your project -></p>
+					<p class="link">Votre projet, on en parle ? -></p>
 				</NuxtLink>
 			</div>
 		</div>
@@ -22,7 +22,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 202px 0;
+	margin: 70px 0;
 
 	& .content {
 		// border: 1px solid green;

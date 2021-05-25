@@ -1,10 +1,11 @@
 <template>
 	<div id="footer">
 		<div>
-			<NuxtLink to="/">Home</NuxtLink>
-			<NuxtLink to="/about">About</NuxtLink>
+			<NuxtLink to="/">Accueil</NuxtLink>
+			<NuxtLink to="/about">A propos</NuxtLink>
+			<NuxtLink to="/services">Mes services</NuxtLink>
 			<NuxtLink to="/contact">Contact</NuxtLink>
-			<NuxtLink to="/work">Work</NuxtLink>
+			<NuxtLink to="/work">Projets</NuxtLink>
 		</div>
 		<div>polices de caractère utilisées : Raleway & Quattrocento </div>
 		<div>copyright Laura Caillaux 2021</div>
@@ -19,7 +20,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 20px 20px 20px;
+	padding: 60px 20px 20px 20px;
 	& a {
 		margin-right: 10px;
 	}

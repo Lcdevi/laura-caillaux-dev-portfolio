@@ -35,7 +35,7 @@
     "id": "4",
     "title": "Portfolio",
     "description": "En mai 2021 je décide de concevoir et créer mon portfolio",
-    "infos": "Pour mon portfolio, j'ai utilisé NuxtJs. J'ai designé le site de façon claire, je voulais que celui ci soit lisible et que la navigation soit facile d'accès. J'ai selectionné et hiérarchisé les informations et les ai étendu sur 4 pages facile d'accès.",
+    "infos": "Pour mon portfolio, j'ai utilisé NuxtJs. J'ai designé le site de façon claire, je voulais que celui ci soit lisible et que la navigation soit facile d'accès. En respectant mes trois piliers : simplicité, accessibilité et adaptabilité. J'ai selectionné et hiérarchisé les informations et les ai étendu sur 5 pages.",
     "stack": "NuxtJS / SASS",
     "thirdparties": "emailJS",
     "role": "maquettage UI / intégration web / développement web",

@@ -18,19 +18,19 @@
 		<div class="burger-menu" :class="[isActive ? 'remove-menu' : 'display-menu']">
 			<ul>
 				<li v-on:click="togglemenu">
-					<NuxtLink to="/">home</NuxtLink>
+					<NuxtLink to="/">Accueil</NuxtLink>
 				</li>
 				<li v-on:click="togglemenu">
-					<NuxtLink to="/work">work</NuxtLink>
+					<NuxtLink to="/work">projets</NuxtLink>
 				</li>
 				<li v-on:click="togglemenu">
-					<NuxtLink to="/about">about</NuxtLink>
+					<NuxtLink to="/about">A propos</NuxtLink>
+				</li>
+				<li v-on:click="togglemenu">
+					<NuxtLink to="/services">Services</NuxtLink>
 				</li>
 				<li v-on:click="togglemenu">
 					<NuxtLink to="/contact">contact</NuxtLink>
-				</li>
-				<li v-on:click="togglemenu">
-					<NuxtLink to="/credit">credit</NuxtLink>
 				</li>
 			</ul>
 		</div>
@@ -71,8 +71,9 @@ export default {
 
 	#navbar {
 		// border: 1px solid red;
-		position: fixed;
-		top: 0;
+		z-index: 101;
+		// position: fixed;
+		// top: 0;
 		width: 100%;
 		height: 130px;
 		font-family: $ff-sans;
@@ -81,6 +82,7 @@ export default {
 		justify-content: space-between;
 		align-items: center;
 		background-color: $pink;
+		// background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 65%, rgba(255,245,219,0.8) 80%,  rgba(255,245,219,0.25) 90%, rgba(255,245,219,0.01) 100%);
 
 		& .menu-link {
 			width: 120px;
@@ -147,14 +149,17 @@ export default {
 	.burger-menu {
 		// border: 1px solid red;
 		position: absolute;
+		// position: fixed;
+		// top: 65px;
 		width: 100%;
 		// background-color: $pink;
 		// background: linear-gradient($pink, rgba(255,245,219, 0.5));
-		background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 40%, rgba(255,245,219,0.6923144257703081) 100%);
+		background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 65%, rgba(255,245,219,0.8) 80%,  rgba(255,245,219,0.25) 90%, rgba(255,245,219,0.01) 100%);
+		// background: linear-gradient(180deg, rgba(255,245,219,1) 0%, rgba(255,245,219,1) 70%, rgba(255,245,219,0.6923144257703081) 100%);
 		z-index: 100;
-		padding: 40px 0 140px 0;
+		padding: 30px 0 140px 0;
 		text-align: center;
-		height: 140vh;
+		height: 120vh;
 
 		& li {
 			font-family: $ff-serif;

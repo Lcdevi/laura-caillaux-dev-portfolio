@@ -28,12 +28,12 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 202px 0;
+	margin: 70px 0;
 	& .content {
 		// border: 1px solid green;
 		width: 80vw;
 		max-width: 860px;
-		margin: 70px 0;
+		margin: 70px 0 0 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
